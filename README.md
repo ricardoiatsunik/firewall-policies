@@ -8,23 +8,24 @@ Políticas de Firewall são conjuntos de regras usadas para controlar qual tráf
 O tráfego de rede pode corresponder a critérios, que podemos definir:
 
 <img width="464" height="236" alt="image" src="https://github.com/user-attachments/assets/19b8cea9-2941-414f-8ba6-ae54595558fa" />
-
-
+<br>
 Os campos Source e Destination de uma política de firewall podem ser IP Subnet ou Internet Services.
 
 ##
 
-# IP Subnet #
-
+# IP Subnet
+<br>
 <img width="819" height="357" alt="image" src="https://github.com/user-attachments/assets/2634e9b0-5932-4f7e-9ff6-a2c3d394c6ea" />
-
+<br>
 * Para usar um IP Subnet como Source ou Destination, criar um endereço de firewall que corresponda ao IP Subnet.
+<br>
 * Para criar uma política que permita usuários internos acessarem a Internet, configurar um endereço de firewall que corresponda ao IP Subnet da rede interna e usar como Source.
 
 
 ## 
 Também é possível criar um endereço de firewall para um dispositivo em específico, como um Servidor Web, usando o endereço de firewall como Destination em qualquer política de firewall que você queira permitir acesso ao Servidor:
-
+<br>
+<br>
 <img width="868" height="393" alt="image" src="https://github.com/user-attachments/assets/48839f5b-e380-4720-8f44-63620717c428" />
 
 ##
@@ -33,11 +34,16 @@ Também é possível criar um endereço de firewall para um dispositivo em espec
 Para usar Internet Services como Source ou Destination, selecionar o IS na ISDB (Internet Service Data Base). Um administrador de Fortigate também pode customizar um Internet Service:
 
 <img width="874" height="393" alt="image" src="https://github.com/user-attachments/assets/cc1d50e2-79a1-4c57-8b24-97e3a4bbf2a5" />
+<br>
+<br>
 
-# Fortigate Policy Table #
+## Fortigate Policy Table ##
+
 O Fortigate Policy Table contém todas as políticas de firewall. O firewall sempre checa a lista por ordem (de cima pra baixo) e aplica a primeira que conceder, caso contrário desce até o Deny e é negado.
+<br>
 Isso quer dizer que se deve manter as políticas mais específicas por primeiro:
-
+<br>
+<br>
 <img width="909" height="493" alt="image" src="https://github.com/user-attachments/assets/6b483f13-8abd-419e-8733-b95a8fa735ee" />
 
 ##
