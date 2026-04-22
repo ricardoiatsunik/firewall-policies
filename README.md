@@ -1,6 +1,4 @@
-* Anotações de estudo sobre Políticas de Firewall no FortiGate, parte do curso NSE 3.
-
-
+<br>
 # Políticas de Firewall #
 Políticas de Firewall são conjuntos de regras usadas para controlar qual tráfego de rede é aceito e, se for aceito, como será processado.
 
@@ -64,5 +62,7 @@ Examina o tráfego conforme passa pelo FortiGate, sem nenhum buffering:
 Na Inspeção Baseada em Proxy, o FortiGate usa buffering e examina o tráfego como um todo, até mesmo em dados que o Flow-Based não inspeciona, porém aumenta a latência da velocidade de transmissão:
 <img width="1070" height="480" alt="image" src="https://github.com/user-attachments/assets/b17bd4e3-7844-4651-a357-9552c4910f79" />
 
+# Referência
+NSE 3 | Fortinet
 
 
