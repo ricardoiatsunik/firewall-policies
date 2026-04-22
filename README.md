@@ -1,4 +1,5 @@
 <br>
+
 # Políticas de Firewall #
 Políticas de Firewall são conjuntos de regras usadas para controlar qual tráfego de rede é aceito e, se for aceito, como será processado.
 
